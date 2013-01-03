@@ -12,6 +12,7 @@
             <% flash.each do |k,v| %>
               <div class="flash <%= k %>"><%= v %></div>
             <% end %>
+            <!--produces div class = 'flash success' or 'flash error'-->
             <%= yield %>
           </section>
           <%= render 'layouts/footer' %>
