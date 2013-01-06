@@ -102,6 +102,16 @@ a.signup_button {
     border-radius: 10px;
 }
 
+/* User index */
+
+ul.users {
+    margin-top: 1em;
+}
+
+.users li {
+    list-style: none
+}
+
 /* Footer */
 
 footer {
